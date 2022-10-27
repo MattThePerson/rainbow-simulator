@@ -1,0 +1,17 @@
+// Pseudocode
+
+line:
+- start
+- end
+- color
+- intensity (alpha)
+
+Show droplet
+Have line of white light intersecting droplet
+find intersection point and angle
+find first internal refraction lines for each wavelength
+for each refraction line:
+	find intersect point and angle on droplet
+	produce 2 lines, 1 refracting outwards, 1 reflecting, each with calculated intensity
+	for each internal reflection line
+
